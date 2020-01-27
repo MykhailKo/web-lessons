@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Programming ultimates</title>
+</head>
+<body>
+<script type="text/javascript">
+	let a1 = 4; // 2.334
+	var a2 = "string"; // 'v'
+	const a3 = true; // true - 1, false - 0
+	let array = [1, 4, 6, 8, 9, -4, -12, 0];
+	let arr_el = array[7];
+	let array_str = ["sdg", "d", "fgwdg", 'dsguh'];
+	let arr_str_el = array_str[2];
+
+
+	if(arr_el > 0){ // <, >, <=, >=, ==, !=
+		console.log("First element is bigger then 0");
+	}else if(arr_el == 0){
+		console.log("First element is equal to 0");
+	}else {
+		console.log("First element is smaller then 0");
+	}
+
+
+	console.log("While:");
+	let j = 0;
+	while(j < 3){
+		console.log(j);
+		j++;
+	}
+	console.log("For clssic:");
+	for(let i = 0; i < array.length; i++){
+		console.log(array[i]);
+	}
+	console.log("For of:");
+	for(let el of array){
+		console.log(el);
+	}
+</script>
+</body>
+</html>

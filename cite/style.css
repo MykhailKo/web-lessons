@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-size: 12px;
+}
+main {
+	margin-left: 2vw;
+}
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30vw;
+	height: 30vh;
+	background-color: #111;
+	background: linear-gradient(to right, #f13333, blue, green, yellow, gold, salmon); 
+}
+.text {
+	display: block;
+	color: transparent;
+	background: linear-gradient(to left, #f13333, blue, green, yellow, gold, salmon); 
+	-webkit-background-clip: text;
+	font-family: Century Gothic;
+	font-size: 3em;
+	font-weight: bold;
+}
+.grid_s {
+	display: grid;
+	grid-template-areas: 'a a a b b'
+						 'c c c d d';
+	grid-gap: 1em;
+	width: 40vh;
+	height: 40vh;
+	background-color: #fff;
+	margin-top: 3vh;
+	padding: 1em;
+}
+.grid_s > div {
+	justify-content: center;
+	align-items: center;
+}
+.grid_1 {
+	display: grid;
+	grid-area: a;
+	background-color: green;
+}
+.grid_2 {
+	display: grid;
+	grid-area: b;
+	background-color: lightblue;
+}
+.grid_3 {
+	display: grid;
+	grid-area: c;
+	background-color: red;
+}
+.grid_4 {
+	display: grid;
+	grid-area: d;
+	background-color: yellow;
+}
+.flex_parent {
+	margin-top: 5vh;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: center;
+	width: 50vw;
+	height: 90vh;
+	border: 0.1vh solid #000;
+	padding: 1vh;
+}
+.flex {
+	display: flex;
+	width: 22vw;
+	height: 27vh;
+	border: 0.1vh solid #000;
+	margin-left: 2vh;
+	align-items: center;
+	justify-content: center;
+	font-size: 3em;
+}
+.grid_parent {
+	margin-top: 15vh;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	grid-template-areas: 'a b'
+						 'c d'
+						 'e f';
+	grid-gap: 2vh;
+	align-items: center;
+	justify-content: center;
+	width: 50vw;
+	height: 90vh;
+	border: 0.1vh solid #000;
+	padding: 1vh;
+}
+.grid {
+	display: grid;
+	background-color: #707070;
+	align-items: center;
+	justify-content: center;
+	font-size: 3em;
+}
+.grid_parent:nth-child(1) {
+	display: grid;
+	grid-area: a;
+}
+.grid_parent:nth-child(2) {
+	display: grid;
+	grid-area: b;
+}
+.grid_parent:nth-child(3) {
+	display: grid;
+	grid-area: c;
+}
+.grid_parent:nth-child(4) {
+	display: grid;
+	grid-area: d;
+}
+.grid_parent:nth-child(5) {
+	display: grid;
+	grid-area: e;
+}
+.grid_parent:nth-child(6) {
+	display: grid;
+	grid-area: f;
+}
+button {
+	display: block;
+	width: 16vw;
+	font-size: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+}
+footer {
+	height: 5vh;
+}
+
+
+
+
+

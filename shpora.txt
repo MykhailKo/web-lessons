@@ -1,0 +1,12 @@
+vw - viewable width
+vh - viewable height
+em - multiply parent element font-size
+px
+%
+
+:nth-child(n)
+:first-child
+:last-child
+.parent html-tag:first-of-type/last-of-type/nth-of-type(n)
+.parent .ch_class:first-of-class/last-of-class/nth-of-class(n)
+
