@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.block {
+	width: 20vw;
+	height: 20vw;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10vh;
+	background-color: #000;
+	transition: 0.5s background-color;
+}
+.slider {
+	width: 45vw;
+	height: 40vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10vh;
+	background-color: silver;
+	overflow-x: hidden;
+}
+.slides {
+	display: flex;
+	width: 225vw;
+	height: 40vh;
+	background-color: gainsboro; 
+	transition: 0.75s margin;
+}
+.slide {
+	width: 45vw;
+	height: 40vh;
+	background-color: green;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+.slide:nth-child(1){
+	background-image: url('images/iceland.jpg');
+}
+.slide:nth-child(2){
+	background-image: url('images/iceland1.jpg');
+}
+.slide:nth-child(3){
+	background-image: url('images/iceland2.jpg');
+}
+.slide:nth-child(4){
+	background-image: url('images/iceland3.jpg');
+}
+.slide:nth-child(5){
+	background-image: url('images/iceland4.jpg');
+}
